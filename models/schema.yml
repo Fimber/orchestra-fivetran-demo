@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fivetran_connection_summary
+    columns:
+      - name: connection_count
+        data_tests:
+          - not_null
+      - name: built_at
+        data_tests:
+          - not_null
