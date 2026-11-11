@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: fivetran_metadata
+    schema: fivetran_metadata_twistable_happinefs
+    tables:
+      - name: connection
